@@ -1,4 +1,10 @@
-### Hi there 👋
+### Joshua Clarke
+
+This is the repository for my professsional landing page.
+
+It's pretty simple at the moment, but simple is good.
+
+Stay tuned...
 
 <!--
 **josh-clarke/josh-clarke** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
