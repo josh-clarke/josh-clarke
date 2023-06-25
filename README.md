@@ -1,10 +1,9 @@
-### Joshua Clarke
+Hi there! I am a web design veteran with over 10 years experience. I have been the architect &amp; designer of websites from small businesses to universities.
 
-This is the repository for my professsional landing page.
+I love seeing what a fresh website build does to transform your business, especially one that you can easily manage through a CMS like Wordpress or Ghost. I would be thrilled to work with **entrepreneurs**, **coaches**, **creators**, **podcasters**, and **small businesses**. I am also open to collaborations or teaming up with agencies.
 
-It's pretty simple at the moment, but simple is good.
+You can get in touch with me through my [website](https://joshuaclarke.org).
 
-Stay tuned...
 
 <!--
 **josh-clarke/josh-clarke** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
