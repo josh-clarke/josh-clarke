@@ -1,0 +1,176 @@
+
+body{
+  background: rgb(199,254,255);
+  background: linear-gradient(153deg, rgba(199,254,255,1) 0%, rgba(255,237,200,1) 100%);
+  color: #444;
+  font-family: 'EB Garamond', 'Garamond', 'Times New Roman', Times, serif;
+  font-size: 21px;
+  line-height: 1.25;
+}
+
+p {
+  margin: 0;
+  padding: 0.625rem 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color: #007b7d;
+  font-family: 'Work Sans', 'Futura', Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  line-height: 1;
+  margin: 0;
+  padding: 1.875rem 0 0.625rem 0;
+}
+
+.site-title {
+  font-size: 2.5rem;
+  padding: 0.625rem 0;
+}
+
+.site-subtitle {
+  font-size: 1rem;
+  line-height: 1.25;
+  font-family: 'JetBrains Mono', 'Courier New', Courier, monospace;
+  padding: 0.625rem 0;
+}
+
+.container {
+  margin: 0;
+  padding: 2.5rem 25vw 0;
+  clear: both;
+}
+
+.container.wide {
+  padding: 2.5rem 10vw 0;
+}
+
+@media screen and (max-width: 960px) {
+  .container,
+  .container.wide {
+    padding: 0 1rem 2.5rem;
+  }
+}
+
+.site-header {
+  padding-top: 4.6rem;
+}
+
+.site-footer p {
+  color: #999;
+  font-size: 0.618em;
+}
+
+.introduction {
+  font-size: 3rem;
+  line-height: 3.25rem;
+  padding: 0;
+}
+
+.client-list {
+  display: block;
+  margin: 0;
+  padding: 2.5rem 0 0;
+  text-align: center;
+}
+
+.client-list li {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  /* background-blend-mode: hard-light; */
+  display: inline-block;
+  margin: 0 1.25rem 2.5rem;
+  padding: 0;
+  overflow: hidden;
+  text-indent: -9999em;
+  height: 60px;
+  width: 185px;
+}
+
+.client-list .ai {
+  background-image: 
+    /* linear-gradient(black,black), */
+    url('img/ai.png');
+  width: 60px;
+}
+.client-list .nestle {
+  background-image: 
+    /* linear-gradient(black,black),  */
+    url('img/nestle.png');
+  width: 55px;
+}
+.client-list .smuckers {
+  background-image: 
+    /* linear-gradient(black,black), */
+    url('img/smuckers.png');
+  width: 115px;
+}
+.client-list .upmc {
+  background-image: 
+    /* linear-gradient(black,black), */
+    url('img/upmc.png');
+  width: 125px;
+}
+.client-list .fnb {
+  background-image: 
+    /* linear-gradient(black,black), */
+    url('img/fnb.png');
+    width: 260px;
+}
+.client-list .gcc {
+  background-image: 
+    /* linear-gradient(black,black), */
+    url('img/gcc.png');
+  width: 70px;
+}
+
+@media screen and (max-width: 960px) { 
+  .client-list li {
+    margin: 0 auto 2.5rem auto;
+    height: 120px;
+    width: 66%;
+  }
+  .client-list .ai {
+    width: 66%;
+  }
+  .client-list .nestle {
+    width: 66%;
+  }
+  .client-list .smuckers {
+    width: 66%;
+  }
+  .client-list .upmc {
+    width: 66%;
+  }
+  .client-list .fnb {
+    width: 66%;
+  }
+  .client-list .gcc {
+    width: 66%;
+  }
+  .client-list li:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: rgb(0,69,73);
+    background: linear-gradient(202deg, rgba(0,69,73,1) 0%, rgba(55,0,106,1) 100%);
+    color: rgba(255,255,255,0.9);
+  }
+
+  h1,h2,h3,h4,h5,h6 {
+    color: #00fbff;
+  }
+  
+.client-list {
+    background-color: rgba(255,255,255,0.7);
+    border-radius: 15px;
+    border: solid 0.625rem rgba(255,255,255,0);
+    box-shadow: rgba(0,0,0,0.2) 0px 15px 40px;
+  }
+  .client-list li {
+    margin-right: 0.625rem;
+  }
+}
